@@ -1,0 +1,9 @@
+.DS_Store
+~$*.pptx
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.env
+.env.*
