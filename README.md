@@ -1,18 +1,17 @@
 # AWS Story A - Take-Home Submission
 
-This package presents an enterprise AWS modernization and multi-account EKS migration design. It includes the client presentation, editable architecture diagram, Terraform reference structure, operational diagnostics, Well-Architected controls and statement of work.
+This package presents an enterprise AWS modernization and multi-account EKS migration design. It includes the client presentation, editable architecture diagram, Terraform reference structure, operational diagnostics, Well-Architected controls and statement of work required for Story A.
 
 ## Start here
 
 1. Open `Story_A_Simplified_Presentation.pptx` for the client presentation.
 2. Open `AWS-Architecture.drawio` in diagrams.net for the editable AWS architecture.
 3. Use `AWS-Architecture.drawio.svg` for a quick visual preview.
-4. Use the documents and technical folders when implementation detail is requested.
+4. Use the architecture, Terraform, operations, Well-Architected and SOW documents for implementation detail.
 
 ## Package contents
 
 - `docs/Architecture_Reference.md` - target architecture, boundaries, flows and trade-offs.
-- `docs/Presenter_Guide.md` - slide guidance and requirement mapping.
 - `terraform/` - reusable-module and account-foundation reference structure, including TGW and mixed Linux/Windows EKS examples.
 - `operations/` - Linux and Windows read-only diagnostic samples and the SSM operating approach.
 - `docs/Well_Architected_Matrix.md` - six-pillar controls and evidence.
